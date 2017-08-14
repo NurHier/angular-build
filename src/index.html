@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>每日一文</title>
+    <style>
+        .main { margin: 20px auto; top: 50%; left: 50%; width: 60%; }
+        .title { text-align: center; font-size: 20px; margin: 30px;  font-weight: bold; }
+        .author { text-align: right; }
+        .date { display: inline; }
+    </style>
+</head>
+<body>
+<div ui-view=""></div>
+<script type="text/javascript" src="./lib/js/angular.js"></script>
+<script type="text/javascript" src="./lib/js/angular-ui-router.js"></script>
+<script type="text/javascript" src="./appRouter.js"></script>
+
+<script type="text/javascript" src="./controller/articleController.js"></script>
+<script type="text/javascript" src="./service/articleService.js"></script>
+</body>
+</html>

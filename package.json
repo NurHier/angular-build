@@ -1,0 +1,32 @@
+{
+  "name": "angular-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NurHier/angular-build.git"
+  },
+  "author": "nurhier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NurHier/angular-build/issues"
+  },
+  "homepage": "https://github.com/NurHier/angular-build#readme",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-ui-router": "^1.0.3",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "http-proxy-middleware": "^0.17.4"
+  }
+}
